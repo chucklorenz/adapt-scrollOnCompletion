@@ -29,7 +29,7 @@ none known
 
 ----------------------------
 **Version number:**  0.1.0   
-**Framework versions:**  2.0.18+     
+**Framework versions:**  2.2+     
 **Author / maintainer:** Chuck Lorenz    
 **Accessibility support:** WAI AA   
 **RTL support:** yes   
