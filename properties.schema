@@ -1,0 +1,59 @@
+{
+  "type": "object",
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "id": "http://jsonschema.net",
+  "required": false,
+  "properties": {
+    "pluginLocations": {
+      "type": "object",
+      "required": false,
+      "properties": {
+        "config": {
+          "type": "object"
+        },
+        "course": {
+          "type": "object",
+          "properties": {
+            "_scrollOnComplete": {
+              "type": "object",
+              "required": false,
+              "legend": "Scroll On Complete",
+              "properties": {
+                "_isEnabled": {
+                  "type": "boolean",
+                  "required": false,
+                  "default": false,
+                  "title": "Is enabled",
+                  "inputType": "Checkbox",
+                  "validators": [],
+                  "help": "Controls whether the Scroll On Complete extension is enabled or disabled."
+                },
+                "_excludeComponents": {
+                  "type": "string",
+                  "required": true,
+                  "title": "Exclude these components",
+                  "inputType": "Text",
+                  "validators": [],
+                  "translatable": false,
+                  "help": "A bracketed list of components, e.g., [\"blank\", \"text\", \"graphic\", \"accordion\"]"
+                }}
+              }
+            }
+          }
+        },
+        "contentobject": {
+          "type": "object"
+        },
+        "article": {
+          "type": "object"
+        },
+        "block": {
+          "type": "object"
+        },
+        "component": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

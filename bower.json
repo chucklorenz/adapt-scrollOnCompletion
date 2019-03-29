@@ -1,0 +1,17 @@
+{
+  "name": "adapt-scrollOnCompletion",
+  "version": "0.1.0",
+  "framework": ">=2.2",
+  "homepage": "",
+  "issues": "",
+  "displayName" : "Scroll On Completion",
+  "extension" : "scrollOnCompletion",
+  "description": "An extension that scrolls the page to the Trickle button when component is complete.",
+  "main": "/js/adapt-scrollOnCompletion.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-extension"
+  ],
+  "license": "GPLv3",
+  "targetAttribute": "_scrollOnCompletion"
+}

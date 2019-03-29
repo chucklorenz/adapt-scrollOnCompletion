@@ -1,0 +1,5 @@
+// course.json
+"_scrollOnCompletion": {
+    "_isEnabled": true, // the default is false
+    "_excludeComponents": ['text', 'graphic', 'accordion', 'media-autoplay', 'blank'] // comma separated list
+}
